@@ -26,7 +26,7 @@ Clone your dynamo db to local
 ### Using Homebrew
 
 ```bash
-brew tap kishaningithub/homebrew-tap
+brew tap kishaningithub/tap
 brew install dynamodb-clone
 ```
 
