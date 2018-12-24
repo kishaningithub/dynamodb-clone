@@ -1,0 +1,30 @@
+project_name: dynamodb-clone
+
+release:
+  github:
+    owner: kishaningithub
+    name: dynamodb-clone
+
+before:
+  hooks:
+  - go mod download
+
+builds:
+- main: ./main.go
+  binary: dynamodb-clone
+  goos:
+  - windows
+  - darwin
+  - linux
+  goarch:
+  - amd64
+  - 386
+brew:
+  name: dynamodb-clone
+  github:
+    owner: kishaningithub
+    name: tap
+  url_template: "https://github.com/kishaningithub/dynamodb-clone/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+  folder: Formula
+  homepage: "https://github.com/kishaningithub/dynamodb-clone"
+  description: "Clone your dynamodb"
