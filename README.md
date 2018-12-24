@@ -43,12 +43,13 @@ curl -sfL https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master
 wget -O - -q https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sh -s
 ```
 
-## Example 
+## Example
 
 ```bash
-$ AWS_REGION=eu-west-1 dynamodb-clone -t employee-details -e http://localhost:4569
+AWS_REGION=eu-west-1 AWS_SDK_LOAD_CONFIG=true dynamodb-clone -t employee-details -e http://localhost:4569
 ```
-To load the shared config, `export AWS_SDK_LOAD_CONFIG="true"` before running the above command. 
+
+Run `export AWS_SDK_LOAD_CONFIG="true"` load the shared config, before running the above command.
 This is useful to load the shared credentials file from `~/.aws/credentials`.
 
 ## Usage
