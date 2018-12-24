@@ -12,22 +12,25 @@ Dump your DynamoDB table as CSV
 
 - [dynamodb-clone](#dynamodb-clone)
   - [Table of Contents](#table-of-contents)
-    - [Homebrew](#homebrew)
   - [Install](#install)
+    - [Using Homebrew](#using-homebrew)
+    - [Binary Installation](#binary-installation)
   - [Example](#example)
   - [Usage](#usage)
   - [Maintainers](#maintainers)
   - [Contribute](#contribute)
   - [License](#license)
 
-### Homebrew
+## Install
+
+### Using Homebrew
 
 ```bash
 brew tap kishaningithub/homebrew-tap
 brew install dynamodb-clone
 ```
 
-## Install
+### Binary Installation
 
 ```bash
 # binary will be $GOPATH/bin/dynamodb-clone
