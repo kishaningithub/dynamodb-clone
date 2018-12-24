@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/kishaningithub/dynamodb-clone/latest/total.svg)](https://github.com/kishaningithub/dynamodb-clone/releases)
 [![Latest release](https://img.shields.io/github/release/kishaningithub/dynamodb-clone.svg)](https://github.com/kishaningithub/dynamodb-clone/releases)
 
-Dump your DynamoDB table as CSV
+Clone your dynamo db to local
 
 ## Table of Contents
 
