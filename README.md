@@ -14,7 +14,7 @@ Clone your dynamo db to local
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
     - [Using Homebrew](#using-homebrew)
-    - [Binary Installation](#binary-installation)
+    - [Using Binary](#using-binary)
   - [Example](#example)
   - [Usage](#usage)
   - [Maintainers](#maintainers)
@@ -30,7 +30,7 @@ brew tap kishaningithub/tap
 brew install dynamodb-clone
 ```
 
-### Binary Installation
+### Using Binary
 
 ```bash
 # binary will be $GOPATH/bin/dynamodb-clone
