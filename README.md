@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/kishaningithub/dynamodb-clone/latest/total.svg)](https://github.com/kishaningithub/dynamodb-clone/releases)
 [![Latest release](https://img.shields.io/github/release/kishaningithub/dynamodb-clone.svg)](https://github.com/kishaningithub/dynamodb-clone/releases)
 
-Clone dynamodb data to local instance
+Clone dynamodb table to local
 
 ## Table of Contents
 
