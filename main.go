@@ -76,13 +76,11 @@ func writeItem(result *dynamodb.ScanOutput, tableName string, destDynamoDB *dyna
 }
 
 func getDynamoDbSession(sess *session.Session) *dynamodb.DynamoDB {
-	dynamoDB := dynamodb.New(sess)
-	return dynamoDB
+	return dynamodb.New(sess)
 }
 
 func getDynamoDbSessionUsingEndpointUrl(sess *session.Session, endpointURL string) *dynamodb.DynamoDB {
-	dynamoDB := dynamodb.New(sess, aws.NewConfig().WithEndpoint(endpointURL))
-	return dynamoDB
+	return dynamodb.New(sess, aws.NewConfig().WithEndpoint(endpointURL))
 }
 
 func checkError(message string, err error) {
