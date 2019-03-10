@@ -33,14 +33,11 @@ brew install dynamodb-clone
 ### Using Binary
 
 ```bash
-# binary will be $GOPATH/bin/dynamodb-clone
-curl -sfL https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sh -s -- -b $GOPATH/bin
-
-# or install it into ./bin/
-curl -sfL https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sh -s
+# All unix environments with curl
+curl -sfL https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sh -s -- -b /usr/local/bin
 
 # In alpine linux (as it does not come with curl by default)
-wget -O - -q https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sh -s
+wget -O - -q https://raw.githubusercontent.com/kishaningithub/dynamodb-clone/master/install.sh | sudo sh -s -- -b /usr/local/bin
 ```
 
 ## Example
